@@ -1,4 +1,5 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("src/grafik");
   // Return your Object options:
   return {
     dir: {

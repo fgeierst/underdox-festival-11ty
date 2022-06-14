@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>UNDERDOX</title>
+</head>
+<style>
+	.grid {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 11px;
+		display: grid;
+		grid-template-columns: 30ch 1fr;
+	}
+
+	.grid aside {
+		background-color: #E5E5E5;
+	}
+
+	[aria-current="page"] {
+		background-color: white;
+	}
+</style>
+<body class="grid">
+	<aside>
+		<ol>
+			{% for post in collections.all %}
+				<li {% if page.url == post.url %} aria-current="page"{% endif %}><a href="{{ post.url }}">{{ post.fileSlug }} {% if post.data.title %}  ({{ post.data.title }}) {% endif %}</a></li>
+			{% endfor %}
+	</aside>
+	<main>
+		{{ content | safe }}
+	</main>
+</body>
+</html>
