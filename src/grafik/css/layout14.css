@@ -1,0 +1,134 @@
+/* CSS für Underdox 2014  */
+/* Farbe: #e30063;  */
+
+
+#container {
+	width: 696px;
+	margin: 27px 0 50px 104px;
+	color: #000000;
+    font-size: 11px;
+    line-height: 15px;
+	font-family: Verdana,Geneva,sans-serif;
+	}
+
+#header {
+	margin: 0 0 20px;
+	}
+
+#navi {
+	float: left;
+    width: 170px;
+	}
+	
+	#navi_border {
+		border: 3px solid #e30063 ; /* Farbe */
+		font-size: 12px;
+		position: relative;
+		width: 108px;
+		}
+	
+	#navi ul {
+		list-style:none;
+		padding:0;
+		margin:0;
+		}
+		
+	#navi ul a {
+		position: relative;
+		display:block;
+		left: -70px;
+		width: 90px;
+		margin: 0 0 0;
+		padding: 0.25em 0 0.25em 75px;
+		
+		color: #333333;
+		font-family: Georgia,"Times New Roman",Times,serif;
+		font-weight: bold;
+		text-decoration: none;
+		text-transform: lowercase;
+		}
+		
+	#navi ul a:hover {
+		background-color: #e30063 ; /* Farbe */
+		color: #FFFFFF !important;
+		}
+	
+	#navi li.current a {
+	background-color: #e30063 ; /* Farbe */
+	color: #FFFFFF !important;
+		}
+	
+#main {
+	float: right;
+    width: 515px;
+	background-color: #E5E5E5;
+    margin: 0 0 25px;
+    
+	}
+	
+	#main-content {
+		padding: 14px;
+		}
+	
+	h1, .h2-Filmtitel {
+		font-size: 13px;
+		line-height: 17px;
+		font-weight: bold;
+		text-transform:uppercase;
+		color: #e30063 ; /* Farbe */
+		margin:0;
+		}
+	h2 {
+		font-size: 13px;
+		line-height: 17px;
+		font-weight: bold;
+		color: #e30063 ; /* Farbe */
+		margin:1em 0 0 0;
+		}
+	
+	a {
+		color:inherit;
+		}
+	.film #main img {
+		float:right;
+		margin:0 0 1em 1em;
+		}
+		
+	.info {    
+		line-height: 11px; 
+		}
+		
+	table { 
+		border:none; 
+		border-collapse: collapse; 
+		empty-cells:show;
+		border-top: 1px solid #666; 
+		}
+		
+	 table td { 
+	 	padding: 0px; 
+	 	border-bottom: 1px solid #666; /* Farbe */
+	 	vertical-align:top;
+		}
+		
+	.programm table { 
+		width:100%; 
+		}
+		
+	.programm table td:first-child { 
+		width:100px; padding:0 0 0 1em; 
+		}
+	
+#footer	{
+	clear:both;
+	}
+	#footer a {
+		text-decoration:none;
+		color:inherit;
+	}
+	#footer a:hover {
+		text-decoration:underline;
+	}
+.betont {
+color: #e30063 ; /* Farbe */
+}

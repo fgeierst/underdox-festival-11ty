@@ -1,0 +1,46 @@
+.schrift {
+	font-family:Verdana, Helvetica, Arial;
+	font-size:11px;
+	line-height:15px;
+	color:#000000
+}
+.ueschrift {
+	font-family:Verdana, Helvetica, Arial;
+	font-size:13px;
+	line-height:17px;
+	font-weight:bold;
+	color:#00A482
+}
+.uschrift {
+	font-family:Verdana, Helvetica, Arial;
+	font-size:10px;
+	line-height:10px;
+	color:#000000
+}
+.tableschrift {
+	font-family:Verdana, Helvetica, Arial;
+	font-size:11px;
+	font-weight:bold;
+	line-height:11px;
+	color:#000000
+}
+.filmschrift {
+	font-family:Verdana, Helvetica, Arial;
+	font-size:10px;
+	line-height:11px;
+	color:#000000
+}
+a:visited {
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #339900;
+	text-decoration: underline;
+}
+a {
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #00A482;
+	text-decoration: underline;
+}
